@@ -1,0 +1,29 @@
+{
+  "name": "putio-dropbox",
+  "version": "1.0.0",
+  "description": "Callback interface for put.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aliismayilov/putio-dropbox.git"
+  },
+  "keywords": [
+    "putio",
+    "dropbox",
+    "callback"
+  ],
+  "author": "Ali Ismayilov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliismayilov/putio-dropbox/issues"
+  },
+  "homepage": "https://github.com/aliismayilov/putio-dropbox#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  }
+}
